@@ -2,7 +2,7 @@
 {% set name = "container-diff" %}
 {% set version = "0.14.0" %}
 
-{% set src_dir = ["go/src/github.com", org, name]|join("/") %}
+{% set src_dir = ["src/github.com", org, name]|join("/") %}
 
 
 package:
