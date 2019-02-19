@@ -32,6 +32,7 @@ test:
 about:
   home: https://github.com/GoogleContainerTools/container-diff
   license: Apache 2.0
+  license_family: Apache
   license_file: "{{ src_dir }}/LICENSE"
   summary: Diff your Docker containers
 
