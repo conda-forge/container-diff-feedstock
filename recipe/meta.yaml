@@ -1,4 +1,4 @@
-{% set org = "GoogleCloudPlatform" %}
+{% set org = "GoogleContainerTools" %}
 {% set name = "container-diff" %}
 {% set version = "0.14.0" %}
 
