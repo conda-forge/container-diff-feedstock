@@ -23,7 +23,7 @@ build:
 
 requirements:
   build:
-    - go  # [unix]
+    - {{ compiler("go") }}  # [unix]
 
 test:
   commands:
