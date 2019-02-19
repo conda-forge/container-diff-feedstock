@@ -1,6 +1,6 @@
 {% set org = "GoogleCloudPlatform" %}
 {% set name = "container-diff" %}
-{% set version = "0.9.0" %}
+{% set version = "0.14.0" %}
 
 {% set src_dir = ["go/src/github.com", org, name]|join("/") %}
 
@@ -11,7 +11,7 @@ package:
 
 source:
   - url: "https://github.com/{{ org }}/{{ name }}/archive/v{{ version }}.tar.gz"
-    sha256: cf5957fd9c583030283982dafab0b70608c739408d036444d9acc0a867e7472f
+    sha256: 5dbafdc38524dad60286da2d7a7d303285de2e08e070ce3dcc1488dbfecd116b
     folder: "{{ src_dir }}"
 
   - url: "https://storage.googleapis.com/container-diff/v{{ version }}/container-diff-windows-amd64.exe"  # [win]
