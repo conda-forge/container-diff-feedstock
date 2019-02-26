@@ -15,7 +15,7 @@ source:
     folder: "{{ src_dir }}"
 
   - url: "https://storage.googleapis.com/container-diff/v{{ version }}/container-diff-windows-amd64.exe"  # [win]
-    sha256: a55b75bb9b6894e8562e66a11f4cb12e6ea49e1774a136304c96312e966c2e66                              # [win]
+    sha256: 497123dfd22051c8facb4bfca67dbd0e3ed9a08ead8217eb2f5e534d70810822                              # [win]
     folder: "bin"                                                                                         # [win]
 
 build:
